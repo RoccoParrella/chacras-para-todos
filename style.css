@@ -1,0 +1,310 @@
+html { font-size: 62.5%; } 
+
+* {
+    margin:0;
+    padding:0;
+}
+
+@media only screen and (min-width:0px){
+
+    /* NAVBAR */
+
+    #navbar{
+        background-color: #B12A26;
+        z-index: 100;
+        font-size: 1.4rem;
+        font-weight: 900;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 0.25rem;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: #383838 0px 0px 10px;
+    }
+
+    /* HOME */
+
+    main{
+        width: 100%;
+        background-color: #FBE59C;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner{
+        background-color: #B12A26;
+        height: 90vh;
+        display: flex;
+        width: 100%;
+    }
+
+    .img-banner{
+        object-fit: cover;
+        width: 100%;
+    }
+
+    /* Quienes somos */
+
+    .quienesSomos{
+        background-color: #FBE59C;
+        padding: 100px 20px;
+    }
+
+    .title-qs, .title-cartelera, .title-talleres{
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 2.7rem;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+    }
+
+    .p-qs, .p-talleres{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.9rem;
+        text-align: justify;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: #000000;
+        margin: 20px 0;
+    }
+
+    .img-qs{
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px 0 50px;
+    }
+
+    /* CARTELERA */
+
+    .cartelera{
+        background-color: #FBE59C;
+        padding: 100px 20px;
+        width: 100%;
+    }
+
+    .subtitle-cartelera{
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 2rem;
+        margin-top: 60px;
+    }
+
+    .ul-cartelera{
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 1.8rem;
+        margin-top: 25px;
+        padding: 0;
+        list-style: none;
+    }
+
+    .li-cartelera{
+        margin: 10px 0;
+    }
+
+    .footer-cartelera{
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 2rem;
+        margin: 100px 0;
+    }
+
+    /* TALLERES */
+
+    
+    .talleres{
+        background-color: #FBE59C;
+        padding: 100px 20px;
+        width: 100%;
+    }
+
+    .carousel-inner{
+        border-radius: 20px;
+    }
+
+    .video-youtube{
+        margin-top: 100px;
+        width: 100%;
+        height: 190px;
+    }
+
+    .margin-top{
+        margin-top: 100px;
+    }
+
+    .list-talleres{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.9rem;
+        margin-top: 25px;
+        padding: 0;
+        list-style-position: inside;
+    }
+
+    .img-vecinos{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    /* FOOTER */
+
+    .div-img-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .p-footer{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 900;
+        margin: 0;
+        text-align: center;
+    }
+
+    .div-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 0;
+        width: 100%;
+    }
+
+    #facebook{
+        margin-bottom: 8px;
+        height: 33px;
+    }
+
+    .img-footer{
+        margin: 0 10px;
+        height: 25px;
+    }
+
+    .div-img-footer{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    #whatsapp{
+        height: 33px;
+    }
+
+
+
+}
+
+@media only screen and (min-width:990px){
+
+    /* NAVBAR */
+
+    .navbarContent{
+        width: 70%;
+    }
+    .nav-link{
+        margin: 0 10px;
+    }
+
+    /* HOME */
+
+    .banner{
+        display: block;
+        height: 80vh;
+    }
+
+    .img-banner{
+        object-fit: contain;
+        height: 100%;
+    }
+
+
+    /* Quienes somos */
+
+    .quienesSomos{
+        width: 70%;
+    }
+
+    .div-qs-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .img-qs{
+        width: 350px;
+    }
+
+    .width-qs{
+        width: 500px;
+        margin: 0 30px;
+    }
+
+    .margin-qs{
+        margin: 100px 0;
+    }
+
+    /* CARTELERA */
+
+    .cartelera{
+    width: 70%;
+    }
+
+    /* TALLERES */
+    
+
+    .talleres{
+        width: 70%;
+    }
+    
+    .talleres-div-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+    }
+
+
+    .talleres-width1{
+        width: 80%;
+        padding-right: 200px;
+    }
+
+    .talleres-width2{
+        width: 500px;
+    }
+
+    .video-youtube{
+        margin-top: 100px;
+        width: 100%;
+        height: 600px;
+    }
+
+    /* FOOTER */
+
+    .div-footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .div-img-footer{
+        margin-bottom: 0;
+    }
+
+    .img-footer{
+        margin: 0 20px;
+        height: auto;
+    }
+
+    #facebook, #whatsapp{
+        height: auto;
+    }
+        
+    
+}
+
