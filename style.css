@@ -60,7 +60,7 @@ html { font-size: 62.5%; }
         letter-spacing: 2px;
     }
 
-    .p-qs, .p-talleres{
+    .p-qs, .p-talleres, .p-cartelera{
         font-family: 'Work Sans', sans-serif;
         font-size: 1.9rem;
         text-align: justify;
@@ -76,7 +76,6 @@ html { font-size: 62.5%; }
     .img-qs{
         width: 100%;
         border-radius: 10px;
-        margin: 10px 0 50px;
     }
 
     /* CARTELERA */
